@@ -1,9 +1,16 @@
-# Ignore everything by default
+# Ignore everything
 *
 
-# But not these
+# Allow gitignore
 !.gitignore
+
+# Allow src folder
 !src/
+
+# Ignore everything inside src
+src/*
+
+# Allow practice folder and its files
 !src/practice/**
 
 # Ignore build/IDE files
