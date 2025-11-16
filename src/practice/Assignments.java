@@ -6,7 +6,7 @@ public class Assignments {
 		// Reverse a number (% / = operators)
 		// input = 1234 output = 4321
 		
-		int num = 121;
+		int num = 1234;
 		int rev=0;
 		
 		while(num != 0) {
@@ -15,15 +15,7 @@ public class Assignments {
 			num = num/10;           //removing last number(we get quotient)
 		}
 		
-		
 		System.out.println(rev);
-		System.out.println(num);
-		if(num == rev) {
-			System.out.println("Palindrome");
-		} else {
-			System.out.println("Not Palindrome");
-		}
-
 	}
 
 }

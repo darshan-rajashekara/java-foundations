@@ -22,10 +22,15 @@ public class ConditionalStatementPractice {
 	       }
 	       
 	       //check if a character is vowel
-	       char vow = 'a';
-	       if(vow == 'a') {
-	    	   System.out.println("the given char is vowel");
+	       char ch = 'A';
+	       ch = Character.toLowerCase(ch);
+
+	       if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+	           System.out.println("Vowel");
+	       } else {
+	           System.out.println("Not Vowel");
 	       }
+
 
 	}
 
