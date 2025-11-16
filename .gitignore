@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# But not these
+!.gitignore
+!src/
+!src/practice/**
+
+# Ignore build/IDE files
+.settings/
+bin/
+.classpath
+.project
+
